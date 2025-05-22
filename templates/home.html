@@ -1,0 +1,22 @@
+<!-- prettier-ignore -->
+{% extends "base.html" %}
+
+{% block title %} Blog {% endblock %}
+
+{% block header%}
+<h1>Personal Blog</h1>
+{% endblock %}
+
+<!-- prettier-ignore -->
+{% block main %}
+<ul class="article-lists">
+  <li>
+    <article>
+      <a href="#">
+        <h2>My first article</h2>
+        <time datetime="2024-08-07">August 7, 2024</time>
+      </a>
+    </article>
+  </li>
+</ul>
+{% endblock %}

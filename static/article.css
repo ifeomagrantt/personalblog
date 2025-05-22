@@ -1,0 +1,48 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form > input[type="text"]:nth-child(1) {
+  height: 4rem;
+  margin: 0.5rem 0rem 0.5rem 0rem;
+}
+
+form > input[type="text"]:nth-child(2) {
+  height: 4rem;
+  margin: 0rem 0rem 0.5rem 0rem;
+}
+
+form > input[type="text"]:nth-child(3) {
+  height: 25rem;
+  margin: 0rem 0rem 0.5rem 0rem;
+}
+
+form > input[type="text"] {
+  padding-left: 0.5rem;
+}
+
+form > input[type="submit"] {
+  width: 5rem;
+  height: 2rem;
+}
+
+form > * {
+  border-width: 2px;
+  border-radius: 0.2rem;
+}
+
+.input-box {
+  font-family: inherit;
+  font-size: 1rem;
+  border: 2px solid #333;
+  border-radius: 4px;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+textarea.input-box {
+  height: 400px; /* match your input layout */
+  resize: none; /* or 'none' to lock size */
+}
